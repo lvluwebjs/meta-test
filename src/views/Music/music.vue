@@ -7,6 +7,7 @@
 </template>
 
 <script>
+//引入nav导航组件
 import Nav from "./nav.vue";
 
 export default {
