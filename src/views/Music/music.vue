@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div>我是{{this.$route.meta.title}}</div>
+    <div>我是{{ this.$route.meta.title }}</div>
     <Nav />
     <router-view></router-view>
   </div>
@@ -17,6 +17,4 @@ export default {
 };
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

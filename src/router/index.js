@@ -6,7 +6,7 @@ const router = new Router({
   routes: [
     //路由重定向到login页面
     {
-      path: "/",
+      path: "*",
       redirect: "/login",
     },
     {
