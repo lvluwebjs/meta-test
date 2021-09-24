@@ -17,7 +17,8 @@ const router = new Router({
             path:'/music',
             component:() => import('@/views/Music/music.vue'),
             meta:{
-            requiresAuth:false
+            requiresAuth:false,
+            title:'音乐版块'
             },
             children:[
            {

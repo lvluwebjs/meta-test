@@ -1,6 +1,6 @@
 <template>
   <div>
-    <!-- <div>我是music</div> -->
+    <div>我是{{this.$route.meta.title}}</div>
     <Nav />
     <router-view></router-view>
   </div>
